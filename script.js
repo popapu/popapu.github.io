@@ -1,5 +1,5 @@
 const BASE_URL = 'https://socialclub.rockstargames.com/member/';
-        const STATS_PATH = '/games/gtav/pc/career/overview/gtaonline';
+        const STATS_PATH = '/games/gtav/pcalt/career/overview/gtaonline';
 
         // 페이지 로드 시 즐겨찾기 불러오기
         window.onload = function() {
@@ -84,4 +84,5 @@ const BASE_URL = 'https://socialclub.rockstargames.com/member/';
         // 즐겨찾기 저장
         function saveFavorites(favorites) {
             localStorage.setItem('gta_favorites', JSON.stringify(favorites));
+
         }
